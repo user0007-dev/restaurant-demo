@@ -14,3 +14,7 @@ assets/images/raw/
 # --- node_modules from the optional tools/smoke.mjs test --------------
 node_modules/
 package-lock.json
+
+# --- Python bytecode -------------------------------------------------
+__pycache__/
+*.py[cod]
