@@ -1,0 +1,16 @@
+# --- OS / editor cruft -------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- raw source imagery (large; the processed files in assets/images ---
+#     are what the site actually uses) ---------------------------------
+assets/images/raw/
+
+# --- node_modules from the optional tools/smoke.mjs test --------------
+node_modules/
+package-lock.json
